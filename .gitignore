@@ -7,8 +7,10 @@ __pycache__
 *.egg-info
 
 node_modules
-web/lib/import-map.json
+docs/lib/import-map.json
 
 *.session
 /*.json
 *.bak
+
+build/

@@ -125,7 +125,7 @@ parser.add_argument("--session", help="Telethon session file name", default="sti
 parser.add_argument("--config",
                     help="Path to JSON file with Matrix homeserver and access_token",
                     type=str, default="config.json")
-parser.add_argument("--output-dir", help="Directory to write packs to", default="web/packs/",
+parser.add_argument("--output-dir", help="Directory to write packs to", default="docs/packs/",
                     type=str)
 parser.add_argument("pack", help="Sticker pack URLs to import", action="append", nargs="*")
 
